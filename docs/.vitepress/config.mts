@@ -4,7 +4,7 @@ export default defineConfig({
   lang: 'zh-CN',
   title: '中国计算几何四十年',
   description: '1982–2025：一段与国家工业、学科命运同行的记忆',
-  base: '/',
+  base: '/GDCHistory/',
 
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
@@ -168,9 +168,9 @@ export default defineConfig({
       copyright: '© 2025 中国计算几何四十年编委会',
     },
 
-/*     // lastUpdated: {
-      // text: '最后更新',
-      // formatOptions: { dateStyle: 'short' },
-    // }, */
+    lastUpdated: {
+      text: '最后更新',
+      formatOptions: { dateStyle: 'short' },
+    },
   },
 })

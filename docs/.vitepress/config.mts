@@ -168,9 +168,9 @@ export default defineConfig({
       copyright: '© 2025 中国计算几何四十年编委会',
     },
 
-    lastUpdated: {
-      text: '最后更新',
-      formatOptions: { dateStyle: 'short' },
-    },
+/*     // lastUpdated: {
+      // text: '最后更新',
+      // formatOptions: { dateStyle: 'short' },
+    // }, */
   },
 })

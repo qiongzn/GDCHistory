@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#f5f0eb" rx="6"/>
+  <rect x="1" y="1" width="798" height="448" fill="none" stroke="#c8b89a" stroke-width="1" rx="5" stroke-dasharray="6,4"/>
+  <!-- Geometric decorative lines -->
+  <line x1="100" y1="225" x2="700" y2="225" stroke="#c8b89a" stroke-width="0.5"/>
+  <line x1="400" y1="80" x2="400" y2="370" stroke="#c8b89a" stroke-width="0.5"/>
+  <circle cx="400" cy="225" r="100" fill="none" stroke="#c8b89a" stroke-width="0.8"/>
+  <circle cx="400" cy="225" r="60" fill="none" stroke="#c8b89a" stroke-width="0.5"/>
+  <!-- Bézier curve decoration -->
+  <path d="M 200 310 C 280 200, 520 200, 600 310" fill="none" stroke="#8b1a1a" stroke-width="1.2" opacity="0.4"/>
+  <!-- Image icon -->
+  <rect x="340" y="185" width="120" height="80" fill="none" stroke="#9e8b75" stroke-width="1.5" rx="3"/>
+  <circle cx="365" cy="207" r="8" fill="none" stroke="#9e8b75" stroke-width="1.2"/>
+  <path d="M 340 248 L 370 218 L 395 238 L 415 215 L 460 265" fill="none" stroke="#9e8b75" stroke-width="1.2"/>
+  <!-- Text -->
+  <text x="400" y="295" text-anchor="middle" font-family="'Noto Serif SC', STSong, serif" font-size="13" fill="#9e8b75" letter-spacing="2">图片待插入</text>
+  <text x="400" y="315" text-anchor="middle" font-family="'Noto Sans SC', sans-serif" font-size="11" fill="#b8a898" letter-spacing="1">请替换为实际历史图片或几何示意图</text>
+</svg>

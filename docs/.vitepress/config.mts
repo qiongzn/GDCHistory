@@ -165,7 +165,7 @@ export default defineConfig({
 
     footer: {
       message: '本书内容受版权保护，转载须注明出处。',
-      copyright: '© 2025 中国计算几何四十年编委会',
+      copyright: '@中国工业与应用数学学会 (CSIAM) 几何设计与计算专业委员会 (GDC)',
     },
 
     lastUpdated: {

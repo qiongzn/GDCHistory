@@ -39,10 +39,10 @@ export default defineConfig({
       {
         text: '下篇（1990–2026）',
         items: [
-          { text: '第四篇 · 风雨九十年代（1990–1999）', link: '/chapters/04-nineties/ch10' },
-          { text: '第五篇 · 薪火相传（2000–2012）',     link: '/chapters/05-inheritance/ch13' },
-          { text: '第六篇 · 百花齐放（2013–2026）',     link: '/chapters/06-flourish/ch16' },
-          { text: '终篇',                               link: '/chapters/epilogue/ch19' },
+          { text: '第四篇 · 风雨九十年代（1990–1999）', link: '/chapters/04-nineties/ch14' },
+          { text: '第五篇 · 薪火相传（2000–2012）',     link: '/chapters/05-inheritance/ch17' },
+          { text: '第六篇 · 百花齐放（2013–2026）',     link: '/chapters/06-flourish/ch20' },
+          { text: '终篇',                               link: '/chapters/epilogue/ch23' },
         ],
       },
       { text: '附录', link: '/chapters/appendix/timeline' },
@@ -78,45 +78,49 @@ export default defineConfig({
           text: '第三篇　学派并行（1982–1989）',
           collapsed: false,
           items: [
-            { text: '第6章　浙江大学：数学根基与几何方法',     link: '/chapters/03-schools/ch06' },
-            { text: '第7章　山东大学：从船体放样到系统实现',   link: '/chapters/03-schools/ch07' },
-            { text: '第8章　复旦大学：学科引入与早期教学',     link: '/chapters/03-schools/ch08' },
-            { text: '第9章　中科院系统与北航：工程与系统意识', link: '/chapters/03-schools/ch09' },
+            { text: '第6章　浙江大学：数学根基与几何方法',             link: '/chapters/03-schools/ch06' },
+            { text: '第7章　山东大学：从船体放样到系统实现',           link: '/chapters/03-schools/ch07' },
+            { text: '第8章　复旦大学：学科引入与早期教学',             link: '/chapters/03-schools/ch08' },
+            { text: '第9章　中科院系统：孙家昶与数值几何',             link: '/chapters/03-schools/ch09' },
+            { text: '第10章　北航：唐荣锡与国产 CAD 原型',             link: '/chapters/03-schools/ch10' },
+            { text: '第11章　清华大学：计算机学科视角下的几何计算',   link: '/chapters/03-schools/ch11' },
+            { text: '第12章　吉林大学：CAD 几何核心的北方根据地',     link: '/chapters/03-schools/ch12' },
+            { text: '第13章　其他院校与机构：协作组中的更多身影',     link: '/chapters/03-schools/ch13' },
           ],
         },
         {
           text: '第四篇　风雨九十年代（1990–1999）',
           collapsed: true,
           items: [
-            { text: '第10章　出国潮与低谷期',           link: '/chapters/04-nineties/ch10' },
-            { text: '第11章　守与变：协作组的持续运作', link: '/chapters/04-nineties/ch11' },
-            { text: '第12章　新方向的出现',             link: '/chapters/04-nineties/ch12' },
+            { text: '第14章　出国潮与低谷期',           link: '/chapters/04-nineties/ch14' },
+            { text: '第15章　守与变：协作组的持续运作', link: '/chapters/04-nineties/ch15' },
+            { text: '第16章　新方向的出现',             link: '/chapters/04-nineties/ch16' },
           ],
         },
         {
           text: '第五篇　薪火相传（2000–2012）',
           collapsed: true,
           items: [
-            { text: '第13章　2001：GDC 专委会的成立', link: '/chapters/05-inheritance/ch13' },
-            { text: '第14章　新一代学者与研究格局',    link: '/chapters/05-inheritance/ch14' },
-            { text: '第15章　会议、教材与社区',        link: '/chapters/05-inheritance/ch15' },
+            { text: '第17章　2001：GDC 专委会的成立', link: '/chapters/05-inheritance/ch17' },
+            { text: '第18章　新一代学者与研究格局',    link: '/chapters/05-inheritance/ch18' },
+            { text: '第19章　会议、教材与社区',        link: '/chapters/05-inheritance/ch19' },
           ],
         },
         {
           text: '第六篇　百花齐放（2013–2026）',
           collapsed: true,
           items: [
-            { text: '第16章　从学术到产业',         link: '/chapters/06-flourish/ch16' },
-            { text: '第17章　中国图形学的国际舞台', link: '/chapters/06-flourish/ch17' },
-            { text: '第18章　企业、系统与应用',     link: '/chapters/06-flourish/ch18' },
+            { text: '第20章　从学术到产业',         link: '/chapters/06-flourish/ch20' },
+            { text: '第21章　中国图形学的国际舞台', link: '/chapters/06-flourish/ch21' },
+            { text: '第22章　企业、系统与应用',     link: '/chapters/06-flourish/ch22' },
           ],
         },
         {
           text: '终篇　百家争鸣，未完待续',
           collapsed: true,
           items: [
-            { text: '第19章　四十年，我们留下些什么', link: '/chapters/epilogue/ch19' },
-            { text: '第20章　写给后来者',             link: '/chapters/epilogue/ch20' },
+            { text: '第23章　四十年，我们留下些什么', link: '/chapters/epilogue/ch23' },
+            { text: '第24章　写给后来者',             link: '/chapters/epilogue/ch24' },
           ],
         },
         {
@@ -165,7 +169,7 @@ export default defineConfig({
 
     footer: {
       message: '本书内容受版权保护，转载须注明出处。',
-      copyright: '@中国工业与应用数学学会 (CSIAM) 几何设计与计算专业委员会 (GDC)',
+      copyright: '© 2025 中国计算几何四十年编委会',
     },
 
     lastUpdated: {

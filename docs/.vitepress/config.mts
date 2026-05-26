@@ -24,7 +24,7 @@ export default defineConfig({
 
   themeConfig: {
     logo: { src: '/logo.svg', alt: '中国计算几何发展薪火年鉴' },
-    siteTitle: '计算几何四十年',
+    siteTitle: '中国计算几何发展薪火年鉴',
 
     nav: [
       { text: '首页', link: '/' },

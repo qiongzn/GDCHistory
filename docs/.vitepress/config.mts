@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: '中国计算几何四十年',
-  description: '1982–2025：一段与国家工业、学科命运同行的记忆',
+  title: '中国计算几何发展薪火年鉴',
+  description: '一段与国家工业、学科命运同行的记忆',
   base: '/GDCHistory/',
 
   head: [
@@ -23,7 +23,7 @@ export default defineConfig({
   },
 
   themeConfig: {
-    logo: { src: '/logo.svg', alt: '计算几何四十年' },
+    logo: { src: '/logo.svg', alt: '中国计算几何发展薪火年鉴' },
     siteTitle: '计算几何四十年',
 
     nav: [
@@ -169,7 +169,7 @@ export default defineConfig({
 
     footer: {
       message: '本书内容受版权保护，转载须注明出处。',
-      copyright: '© 2025 中国计算几何四十年编委会',
+      copyright: '@中国工业与应用数学学会 (CSIAM) 几何设计与计算专业委员会 (GDC)',
     },
 
     lastUpdated: {
